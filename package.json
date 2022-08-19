@@ -1,0 +1,14 @@
+{
+  "name": "extract-variable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kaiosilveira/extract-variable-refactoring.git",
+  "author": "Kaio Silveira",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
