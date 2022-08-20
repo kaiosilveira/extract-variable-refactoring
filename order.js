@@ -11,6 +11,10 @@ class Order {
     return this._data.itemPrice;
   }
 
+  get basePrice() {
+    return this.quantity * this.itemPrice;
+  }
+
   get price() {
     return (
       this.quantity * this.itemPrice -
