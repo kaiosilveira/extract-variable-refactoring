@@ -24,9 +24,7 @@ class Order {
   }
 
   get price() {
-    return (
-      this.basePrice - this.quantityDiscount + Math.min(this.quantity * this.itemPrice * 0.1, 100)
-    );
+    return this.basePrice - this.quantityDiscount + this.shipping;
   }
 }
 
